@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import EmailCapture from "@/components/EmailCapture";
-import Countdown from "@/components/Countdown";
-import CTA from "@/components/CTA";
-import Gallery from "@/components/Gallery";
+import Navbar from "../components/Navbar";
+import EmailCapture from "../components/EmailCapture";
+import Countdown from "../components/Countdown";
+import CTA from "../components/CTA";
+import Gallery from "../components/Gallery";
 import Services from "@/components/Services";
 
 export default function Home() {

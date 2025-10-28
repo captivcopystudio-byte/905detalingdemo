@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fafafa;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+}
+
+.container-padded {
+  @apply max-w-5xl mx-auto px-4;
+}
